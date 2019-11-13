@@ -12,4 +12,5 @@ course1 = course_titles[0]
 course2 = course_titles[1]
 course3 = course_titles[2]
 course4 = course_titles[3]
+course_titles.each {|x| puts x.text}
 binding.pry
